@@ -3,358 +3,170 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Yi Yang - PhD researcher in Brain-Computer Interfaces, EEG, Affective Computing, Incremental Learning, and Deep Learning." />
-  <meta name="keywords" content="Yi Yang, Brain-Computer Interface, BCI, EEG, fNIRS, Affective Computing, Incremental Learning, Deep Learning, University of Macau" />
-  <title>Yi Yang | BCI, EEG & Deep Learning</title>
+
+  <title>Yi Yang | Brain-Computer Interfaces & EEG Intelligence</title>
+  <meta name="description" content="Yi Yang's academic homepage. PhD researcher at University of Macau working on Brain-Computer Interfaces, EEG, affective computing, incremental learning, and deep learning." />
 
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
 </head>
 
 <body>
-  <header class="site-header">
-    <nav class="navbar">
-      <a class="brand" href="#top">Yi Yang</a>
+  <main class="page">
+    <header class="top-header">
+      <h1>Yi Yang <span class="cn-name">杨毅</span></h1>
+    </header>
 
-      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.body.classList.toggle('nav-open')">
-        <span></span><span></span><span></span>
-      </button>
+    <section class="intro-section">
+      <div class="intro-text">
+        <p>
+          I am <strong>Yi Yang</strong>, currently a Ph.D. researcher in
+          <strong>Electrical and Computer Engineering</strong> at
+          <a href="https://www.um.edu.mo/" target="_blank" rel="noopener">University of Macau</a>,
+          advised by <a href="https://www.fst.um.edu.mo/people/fwan/" target="_blank" rel="noopener">Prof. Feng Wan</a>.
+        </p>
 
-      <div class="nav-menu">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#education">Education</a>
-        <a href="#awards">Awards</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
+        <p>
+          My research focuses on <strong>Brain-Computer Interfaces (BCIs)</strong>,
+          <strong>EEG/fNIRS signal analysis</strong>, <strong>affective computing</strong>,
+          and <strong>deep learning</strong>. I am particularly interested in building
+          adaptive, robust, and privacy-preserving neural interface systems.
+        </p>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-bg"></div>
+        <p>
+          Recently, I have been working on <strong>class-incremental learning</strong>,
+          <strong>few-shot learning</strong>, <strong>domain adaptation</strong>,
+          and <strong>analytic recursive learning</strong> for EEG-based BCIs,
+          including emotion recognition, motor imagery, SSVEP, sleep monitoring,
+          EEG-to-image, and EEG-to-text.
+        </p>
 
-      <div class="hero-inner">
-        <div class="hero-copy">
-          <p class="eyebrow">PhD Researcher · University of Macau</p>
-          <h1>Brain-Computer Interfaces, EEG Intelligence, and Privacy-Preserving Deep Learning</h1>
-          <p class="hero-lead">
-            I develop adaptive, robust, and privacy-preserving BCI systems for EEG-based affective computing,
-            motor imagery, sleep monitoring, and neurorehabilitation.
-          </p>
-
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#publications">View Research</a>
-            <a class="btn btn-light" href="mailto:yc27932@um.edu.mo">Contact</a>
-            <a class="btn btn-ghost" href="https://github.com/YYingDL" target="_blank" rel="noopener">GitHub</a>
-          </div>
-
-          <div class="hero-meta">
-            <div>
-              <strong>Focus</strong>
-              <span>BCI · EEG · fNIRS</span>
-            </div>
-            <div>
-              <strong>Methods</strong>
-              <span>Deep Learning · CIL · DA</span>
-            </div>
-            <div>
-              <strong>Expected PhD</strong>
-              <span>Nov. 2026</span>
-            </div>
-          </div>
-        </div>
-
-        <aside class="profile-card">
-          <div class="avatar">YY</div>
-          <h2>Yi Yang</h2>
-          <p>PhD Researcher in Electrical and Computer Engineering</p>
-
-          <div class="profile-links">
-            <a href="https://github.com/YYingDL" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://orcid.org/0000-0001-8679-9359" target="_blank" rel="noopener">ORCID</a>
-            <a href="mailto:yc27932@um.edu.mo">Email</a>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section id="about" class="section about-section">
-      <div class="section-title">
-        <span>About</span>
-        <h2>Research Summary</h2>
-      </div>
-
-      <div class="about-grid">
-        <div class="about-text">
-          <p>
-            I am a PhD researcher at the University of Macau, specializing in Brain-Computer Interfaces,
-            affective computing, EEG/fNIRS analysis, and deep learning. My current research explores how
-            intelligent neural interfaces can adapt to new users, new classes, and non-stationary neural patterns
-            while preserving data privacy.
-          </p>
-          <p>
-            My work connects practical BCI deployment with machine learning topics including transfer learning,
-            domain adaptation, class-incremental learning, few-shot learning, analytic recursive learning, and
-            generative neuro-AI models.
-          </p>
-        </div>
-
-        <div class="highlight-panel">
-          <h3>Core Research Goal</h3>
-          <p>
-            Building robust, interpretable, and privacy-preserving BCI systems that require minimal calibration
-            and can continuously adapt to evolving neural data.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="research" class="section muted-section">
-      <div class="section-title">
-        <span>Research</span>
-        <h2>Research Interests</h2>
-      </div>
-
-      <div class="interest-grid">
-        <article class="interest-card">
-          <img src="assets/icon-bci.svg" alt="BCI icon" />
-          <h3>Brain-Computer Interfaces</h3>
-          <p>EEG-based BCI systems for affective computing, motor imagery, SSVEP, and neurorehabilitation.</p>
-        </article>
-
-        <article class="interest-card">
-          <img src="assets/icon-ai.svg" alt="AI icon" />
-          <h3>Incremental Learning</h3>
-          <p>Class-incremental and few-shot learning methods for adapting BCI models without catastrophic forgetting.</p>
-        </article>
-
-        <article class="interest-card">
-          <img src="assets/icon-privacy.svg" alt="Privacy icon" />
-          <h3>Privacy-Preserving Learning</h3>
-          <p>Learning algorithms that avoid raw EEG replay and support practical deployment under privacy constraints.</p>
-        </article>
-
-        <article class="interest-card">
-          <img src="assets/icon-signal.svg" alt="Signal icon" />
-          <h3>Neural Signal Analysis</h3>
-          <p>EEG/fNIRS signal processing, brain network analysis, MNE, EEGLAB, and statistical evaluation.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="publications" class="section">
-      <div class="section-title">
-        <span>Work</span>
-        <h2>Selected Research Projects & Papers</h2>
-        <p class="section-subtitle">
-          The following cards are structured for GitHub Pages. Replace the placeholder images and links with final paper figures, PDFs, code, or project pages when available.
+        <p class="link-row">
+          <a href="mailto:yc27932@um.edu.mo">E-Mail</a>
+          <span>|</span>
+          <a href="https://orcid.org/0000-0001-8679-9359" target="_blank" rel="noopener">ORCID</a>
+          <span>|</span>
+          <a href="https://github.com/YYingDL" target="_blank" rel="noopener">Github</a>
+          <span>|</span>
+          <a href="#" title="Replace this link with your Google Scholar profile URL">Google Scholar</a>
         </p>
       </div>
 
-      <div class="publication-grid">
-        <article class="paper-card featured">
-          <div class="paper-image">
-            <img src="assets/paper-mmtea.svg" alt="Multiple Model Transferability Ensemble Adaptation illustration" />
-          </div>
-          <div class="paper-body">
-            <div class="paper-tags">
-              <span>Privacy-Preserving BCI</span>
-              <span>Domain Adaptation</span>
-              <span>Submitted</span>
-            </div>
-            <h3>Multiple Model Transferability Ensemble Adaptation for Privacy-Preserving BCIs</h3>
-            <p>
-              This work studies privacy-preserving transfer learning for EEG-based BCIs. It leverages multiple source
-              models and dynamic transferability estimation to improve target-subject adaptation without directly
-              accessing raw source-domain EEG data.
-            </p>
-            <ul>
-              <li><strong>Supervisor:</strong> Prof. Feng Wan</li>
-              <li><strong>Status:</strong> Submitted to IEEE Transactions on Systems, Man, and Cybernetics: Systems</li>
-            </ul>
-            <div class="paper-links">
-              <a class="btn btn-small btn-primary" href="#" aria-disabled="true">PDF Coming Soon</a>
-              <a class="btn btn-small btn-ghost" href="#" aria-disabled="true">Code Coming Soon</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="paper-card">
-          <div class="paper-image">
-            <img src="assets/paper-bcicil.svg" alt="Class Incremental Learning in BCI illustration" />
-          </div>
-          <div class="paper-body">
-            <div class="paper-tags">
-              <span>BCICIL</span>
-              <span>Continual Learning</span>
-              <span>Submitted</span>
-            </div>
-            <h3>Class Incremental Learning in Brain-Computer Interfaces</h3>
-            <p>
-              This project formulates class-incremental learning for BCI scenarios, where new neural classes or intents
-              are introduced over time. The goal is to reduce catastrophic forgetting while maintaining privacy and
-              practical update efficiency.
-            </p>
-            <ul>
-              <li><strong>Supervisor:</strong> Prof. Feng Wan</li>
-              <li><strong>Status:</strong> Submitted to IEEE Transactions on Biomedical Engineering</li>
-            </ul>
-            <div class="paper-links">
-              <a class="btn btn-small btn-primary" href="#" aria-disabled="true">Paper Link</a>
-              <a class="btn btn-small btn-ghost" href="#" aria-disabled="true">Project Page</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="paper-card">
-          <div class="paper-image">
-            <img src="assets/paper-sleep.svg" alt="Sleep stage classification illustration" />
-          </div>
-          <div class="paper-body">
-            <div class="paper-tags">
-              <span>Sleep EEG</span>
-              <span>Few-Shot CIL</span>
-              <span>In Preparation</span>
-            </div>
-            <h3>Discriminative Few-Shot Analytic Class Incremental Learning for Fast Sleep Stage Classification</h3>
-            <p>
-              This work investigates fast adaptation for sleep-stage classification under few-shot incremental settings.
-              It aims to stabilize novel-class distributions and improve sleep EEG recognition with limited new-stage
-              calibration samples.
-            </p>
-            <ul>
-              <li><strong>Supervisor:</strong> Prof. Feng Wan</li>
-              <li><strong>Status:</strong> Data collection, processing, and experiments completed; manuscript in preparation</li>
-            </ul>
-            <div class="paper-links">
-              <a class="btn btn-small btn-primary" href="#" aria-disabled="true">Manuscript Soon</a>
-              <a class="btn btn-small btn-ghost" href="#" aria-disabled="true">Results Soon</a>
-            </div>
-          </div>
-        </article>
+      <div class="intro-photo">
+        <img src="assets/profile-placeholder.svg" alt="Yi Yang profile photo placeholder" />
+        <p class="photo-note">Replace with your photo: <code>assets/profile.jpg</code></p>
       </div>
     </section>
 
-    <section id="education" class="section muted-section">
-      <div class="section-title">
-        <span>Education</span>
-        <h2>Academic Background</h2>
-      </div>
-
-      <div class="education-timeline">
-        <div class="edu-item">
-          <time>2022–Present</time>
-          <div>
-            <h3>PhD in Electrical and Computer Engineering</h3>
-            <p>University of Macau</p>
-          </div>
+    <section class="content-section">
+      <h2>News</h2>
+      <div class="news-list">
+        <div class="news-item">
+          <div class="news-date">2026</div>
+          <div class="news-content"><span class="badge">NEW</span><strong>Ph.D. expected in November 2026.</strong></div>
         </div>
-
-        <div class="edu-item">
-          <time>2019–2022</time>
-          <div>
-            <h3>MSc in Control Science and Engineering</h3>
-            <p>Tianjin University of Technology</p>
-          </div>
+        <div class="news-item">
+          <div class="news-date">2025</div>
+          <div class="news-content"><span class="badge">NEW</span>One special prize, two second prizes, and four third prizes in individual events at the <strong>World Robot Competition 2025</strong>.</div>
         </div>
-
-        <div class="edu-item">
-          <time>2015–2019</time>
-          <div>
-            <h3>BEng in Measurement and Control Technology and Instruments</h3>
-            <p>Jianghan University</p>
-          </div>
+        <div class="news-item">
+          <div class="news-date">2025</div>
+          <div class="news-content"><span class="badge">NEW</span>Our work on <strong>Class Incremental Learning in Brain-Computer Interfaces</strong> was submitted to <em>IEEE Transactions on Biomedical Engineering</em>.</div>
+        </div>
+        <div class="news-item">
+          <div class="news-date">2025</div>
+          <div class="news-content"><span class="badge">NEW</span>Our work on <strong>Multiple Model Transferability Ensemble Adaptation for Privacy-Preserving BCIs</strong> was submitted to <em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>.</div>
+        </div>
+        <div class="news-item">
+          <div class="news-date">2024</div>
+          <div class="news-content">Received poster recognition at the <strong>Macau Symposium on Cognitive and Brain Sciences</strong>.</div>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="section">
-      <div class="section-title">
-        <span>Skills</span>
-        <h2>Technical Toolkit</h2>
-      </div>
-
-      <div class="skill-grid">
-        <div class="skill-box">
-          <h3>Programming</h3>
-          <p>Python, PyTorch, MATLAB, C++</p>
-        </div>
-        <div class="skill-box">
-          <h3>Experiment Programming</h3>
-          <p>E-Prime, PsychToolbox</p>
-        </div>
-        <div class="skill-box">
-          <h3>Signal Analysis</h3>
-          <p>R, EEGLAB, MNE, Brain Network Analysis</p>
-        </div>
-        <div class="skill-box">
-          <h3>BCI Paradigms</h3>
-          <p>SSVEP, Motor Imagery, Affective BCI, Sleep Monitoring, EEG2Image, EEG2Text</p>
-        </div>
+    <section class="content-section">
+      <h2>Research Interests</h2>
+      <div class="interest-tags">
+        <span>Brain-Computer Interfaces</span><span>EEG Signal Processing</span><span>fNIRS</span><span>Affective Computing</span><span>Motor Imagery</span><span>SSVEP</span><span>Sleep Monitoring</span><span>Class-Incremental Learning</span><span>Few-Shot Learning</span><span>Domain Adaptation</span><span>Privacy-Preserving Learning</span><span>EEG-to-Image</span><span>EEG-to-Text</span>
       </div>
     </section>
 
-    <section id="awards" class="section muted-section">
-      <div class="section-title">
-        <span>Awards</span>
-        <h2>Honors and Scholarships</h2>
-      </div>
+    <section class="content-section">
+      <h2>Publications</h2>
 
-      <div class="award-grid">
-        <article>
-          <strong>2019</strong>
-          <span>Outstanding Bachelor's Thesis</span>
-        </article>
-        <article>
-          <strong>2021</strong>
-          <span>National Scholarship during Master's Studies</span>
-        </article>
-        <article>
-          <strong>2022</strong>
-          <span>Outstanding Master's Thesis</span>
-        </article>
-        <article>
-          <strong>2023</strong>
-          <span>World Robot Competition: multiple individual and group prizes</span>
-        </article>
-        <article>
-          <strong>2024</strong>
-          <span>World Robot Competition: two first prizes, one second prize, and three third prizes</span>
-        </article>
-        <article>
-          <strong>2025</strong>
-          <span>World Robot Competition: one special prize, two second prizes, and four third prizes</span>
-        </article>
-        <article>
-          <strong>MSCBS</strong>
-          <span>Best Poster Award and 1st Level Award</span>
-        </article>
+      <article class="publication">
+        <div class="pub-image"><img src="assets/pub-transfer.svg" alt="Privacy-preserving BCI transfer learning illustration" /></div>
+        <div class="pub-info">
+          <h3>Multiple Model Transferability Ensemble Adaptation for Privacy-Preserving BCIs</h3>
+          <p class="pub-authors"><strong>Yi Yang</strong>, Feng Wan</p>
+          <p class="pub-venue">Submitted to <em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em></p>
+          <p class="pub-summary">This work studies privacy-preserving cross-subject adaptation for EEG-based BCIs. It combines multiple source models and transferability-aware ensemble learning to improve target-subject performance without requiring direct access to raw source EEG data.</p>
+          <p class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">Project</a></p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="pub-image"><img src="assets/pub-cil.svg" alt="Class incremental learning in BCI illustration" /></div>
+        <div class="pub-info">
+          <h3>Class Incremental Learning in Brain-Computer Interfaces</h3>
+          <p class="pub-authors"><strong>Yi Yang</strong>, Feng Wan</p>
+          <p class="pub-venue">Submitted to <em>IEEE Transactions on Biomedical Engineering</em></p>
+          <p class="pub-summary">This project formulates class-incremental learning for practical BCI deployment, where new neural intents or categories appear over time. The method aims to mitigate catastrophic forgetting while supporting privacy-preserving and efficient model updates.</p>
+          <p class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">Project</a></p>
+        </div>
+      </article>
+
+      <article class="publication">
+        <div class="pub-image"><img src="assets/pub-sleep.svg" alt="Few-shot sleep stage classification illustration" /></div>
+        <div class="pub-info">
+          <h3>Discriminative Few-Shot Analytic Class Incremental Learning for Fast Sleep Stage Classification</h3>
+          <p class="pub-authors"><strong>Yi Yang</strong>, Feng Wan</p>
+          <p class="pub-venue">Manuscript in preparation</p>
+          <p class="pub-summary">This work investigates fast sleep-stage adaptation with only a few labeled samples from novel classes. It focuses on prototype-guided feature expansion and analytic recursive learning to improve stability under few-shot class-incremental settings.</p>
+          <p class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">Project</a></p>
+        </div>
+      </article>
+    </section>
+
+    <section class="content-section">
+      <h2>Education</h2>
+      <div class="edu-list">
+        <div class="edu-item"><span class="edu-year">2022 - Present</span><span class="edu-detail">Ph.D. in Electrical and Computer Engineering, <strong>University of Macau</strong></span></div>
+        <div class="edu-item"><span class="edu-year">2019 - 2022</span><span class="edu-detail">M.Sc. in Control Science and Engineering, <strong>Tianjin University of Technology</strong></span></div>
+        <div class="edu-item"><span class="edu-year">2015 - 2019</span><span class="edu-detail">B.Eng. in Measurement and Control Technology and Instruments, <strong>Jianghan University</strong></span></div>
       </div>
     </section>
 
-    <section id="contact" class="section contact-section">
-      <div class="contact-card">
-        <div>
-          <span class="eyebrow">Contact</span>
-          <h2>Open to academic collaboration in BCI, EEG, and neural AI.</h2>
-          <p>
-            Please contact me for research collaboration, paper discussion, or BCI-related projects.
-          </p>
-        </div>
+    <section class="content-section">
+      <h2>Honors and Awards</h2>
+      <ul class="award-list">
+        <li>Outstanding Bachelor's Thesis, 2019.</li>
+        <li>National Scholarship during Master's Studies, 2021.</li>
+        <li>Outstanding Master's Thesis, 2022.</li>
+        <li>World Robot Competition 2023: two special prizes, one second prize, one third prize, and one first prize in group events.</li>
+        <li>World Robot Competition 2024: two first prizes, one second prize, and three third prizes.</li>
+        <li>World Robot Competition 2025: one special prize, two second prizes, and four third prizes.</li>
+        <li>Macau Symposium on Cognitive and Brain Sciences: poster awards.</li>
+      </ul>
+    </section>
 
-        <div class="contact-links">
-          <a href="mailto:yc27932@um.edu.mo">yc27932@um.edu.mo</a>
-          <a href="https://github.com/YYingDL" target="_blank" rel="noopener">github.com/YYingDL</a>
-          <a href="https://orcid.org/0000-0001-8679-9359" target="_blank" rel="noopener">ORCID: 0000-0001-8679-9359</a>
-        </div>
+    <section class="content-section">
+      <h2>Research Skills</h2>
+      <div class="skill-table">
+        <div><strong>Programming Languages</strong><span>Python, PyTorch, MATLAB, C++</span></div>
+        <div><strong>Experiment Programming</strong><span>E-Prime, PsychToolbox</span></div>
+        <div><strong>Experiment Paradigms</strong><span>SSVEP, Motor Imagery, Affective BCI, Sleep Monitoring, EEG2Image, EEG2Text</span></div>
+        <div><strong>Experiment Analyses</strong><span>R, EEGLAB, MNE, Brain Network Analysis</span></div>
       </div>
     </section>
+
+    <section class="content-section contact-section">
+      <h2>Contact</h2>
+      <p>I am open to academic collaboration in BCI, EEG analysis, incremental learning, privacy-preserving learning, and neural AI.</p>
+      <p class="link-row left"><a href="mailto:yc27932@um.edu.mo">yc27932@um.edu.mo</a><span>|</span><a href="https://github.com/YYingDL" target="_blank" rel="noopener">Github</a><span>|</span><a href="https://orcid.org/0000-0001-8679-9359" target="_blank" rel="noopener">ORCID</a></p>
+    </section>
+
+    <footer class="footer"><p>© 2026 Yi Yang. Last updated: 2026.</p></footer>
   </main>
-
-  <footer class="footer">
-    <p>© 2026 Yi Yang. Built with GitHub Pages.</p>
-  </footer>
 </body>
 </html>
